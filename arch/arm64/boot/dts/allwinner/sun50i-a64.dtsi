@@ -1360,4 +1360,10 @@
 			#size-cells = <0>;
 		};
 	};
+        a64-gpiomem {
+                compatible = "allwinner,allwinner-a64,a64-gpiomem";
+                reg = <0x1c20800 0x1000>;
+                status = "okay";
+        };
+	
 };
